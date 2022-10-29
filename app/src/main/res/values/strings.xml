@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HappyLearn</string>
+    <string name="app_introduce">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        快乐学习 app是一款非常优质的学习辅助应用;
+        快乐学习可以很好的帮助学生整理自己的试卷,
+        </string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="account">Account</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome">Welcome to HappyLearn</string>
+    <string name="password">Password</string>
+    <string name="forgot">忘记密码？</string>
+</resources>
