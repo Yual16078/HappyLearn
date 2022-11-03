@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="0dp"
+      android:background="@color/white"
+      android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/bt_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:src="@mipmap/back_button" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="错题本"
+        android:textColor="@color/black" />
+
+    <ImageButton
+        android:id="@+id/bt_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/delete_button" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/no_content"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/no_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:text="这里空空如也， 没有错题"/>
+
+    <Button
+        android:id="@+id/add_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login"
+        android:text="添加错题"/>
+  </LinearLayout>
+
+
+</RelativeLayout>

@@ -12,4 +12,6 @@
     <color name="login_input">#F3F3F3</color>
     <color name="login_input_text_hint">#777777</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="bg_color">#f2f3f5</color>
+    <color name="grey">#777777</color>
 </resources>
